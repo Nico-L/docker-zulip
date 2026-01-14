@@ -58,8 +58,8 @@ services:
         ZULIP_GIT_REF: "11.4"
     ports:
       - "25:25"
-      - "80:80"
-      - "443:443"
+      - "5010:80"
+      - "5011:443"
     environment:
       ## See https://github.com/zulip/docker-zulip#configuration for
       ## details on this section and how to discover the many
